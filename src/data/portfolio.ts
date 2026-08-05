@@ -37,9 +37,9 @@ export const projects = [
     title: "SkyPulse — Live Aviation Intelligence",
     description:
       "Real-time aviation dashboard: live ADS-B aircraft map, Tunisia & global hold/taxi delay leaderboards, multi-hub airport boards, curated safety incidents, and AI sky briefs. Built with Next.js, TypeScript, Leaflet, and secured API proxies.",
-    impact: "Open source · github.com/Ali-Slaimia/skypulse",
+    impact: "Live at sky-pulse-ali.netlify.app · Open source on GitHub",
     tech: ["Next.js", "TypeScript", "ADS-B", "Leaflet", "Zod", "AI"],
-    liveUrl: null,
+    liveUrl: "https://sky-pulse-ali.netlify.app",
     repoUrl: "https://github.com/Ali-Slaimia/skypulse",
     featured: true,
   },
