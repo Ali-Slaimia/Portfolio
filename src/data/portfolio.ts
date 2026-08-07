@@ -23,7 +23,7 @@ export const about = {
   description: "Fluent in English and French.",
   paragraphs: [
     "Results-driven Software Engineering graduate with hands-on experience in full-stack development and AI-powered product building. I design scalable architectures, integrate machine learning features, and focus on impactful user experiences.",
-    "Recently I shipped SkyPulse — a live aviation intelligence app with real ADS-B tracking, a Tunisia-focused delay board, hub boards, and AI sky briefs. I've also led product research in Paris, shipped mobile features in Tunis, and built full-stack platforms from data governance to healthcare management. I'm looking to join innovative teams in Europe or Tunisia where I can grow and contribute from day one.",
+    "Recently I shipped RoleRadar (Tunisia → Europe job radar with CV scan and AI apply packs) and SkyPulse (live ADS-B aviation intelligence with delay boards and AI sky briefs). I've also led product research in Paris, shipped mobile features in Tunis, and built full-stack platforms from data governance to healthcare management. I'm looking to join innovative teams in Europe or Tunisia where I can grow and contribute from day one.",
   ],
   highlights: [
     { label: "Recommendation accuracy", value: "+25%" },
@@ -33,6 +33,16 @@ export const about = {
 } as const;
 
 export const projects = [
+  {
+    title: "RoleRadar — Tunisia → Europe Job Intel",
+    description:
+      "Live multi-source job radar (Remotive, RemoteOK, Arbeitnow, Jobicy) with CV upload/AI profile extraction, skill match scores, AI cover letters, and interview prep — built for a Tunisia → Europe job search.",
+    impact: "Open source · github.com/Ali-Slaimia/roleradar",
+    tech: ["Next.js", "TypeScript", "Zod", "AI", "Job APIs"],
+    liveUrl: null,
+    repoUrl: "https://github.com/Ali-Slaimia/roleradar",
+    featured: true,
+  },
   {
     title: "SkyPulse — Live Aviation Intelligence",
     description:
