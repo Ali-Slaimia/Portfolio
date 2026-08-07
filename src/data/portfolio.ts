@@ -34,6 +34,16 @@ export const about = {
 
 export const projects = [
   {
+    title: "InterviewArena — AI Mock Interviews",
+    description:
+      "Practice interviews for RoleRadar (or any) job descriptions: AI generates 5 questions, scores your answers, and drafts stronger responses. Local fallback works without an API key.",
+    impact: "Open source · github.com/Ali-Slaimia/interviewarena",
+    tech: ["Next.js", "TypeScript", "Zod", "AI", "Interview coaching"],
+    liveUrl: null,
+    repoUrl: "https://github.com/Ali-Slaimia/interviewarena",
+    featured: true,
+  },
+  {
     title: "RoleRadar — Tunisia → Europe Job Intel",
     description:
       "Live multi-source job radar (Remotive, RemoteOK, Arbeitnow, Jobicy) with CV upload/AI profile extraction, skill match scores, AI cover letters, and interview prep — built for a Tunisia → Europe job search.",
