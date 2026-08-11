@@ -34,6 +34,16 @@ export const about = {
 
 export const projects = [
   {
+    title: "ForgePipe — AWS Serverless Event Pipeline",
+    description:
+      "Multi-tenant ingest pipeline on AWS CDK: Cognito JWT API Gateway, idempotent Lambda ingest, DynamoDB single-table + status GSI, SQS/DLQ workers, EventBridge fan-out, Step Functions approval for high-priority events, S3 artifacts, CloudWatch alarms, and GitHub OIDC deploy — plus a Next.js ops console with offline mock mode.",
+    impact: "Open source · github.com/Ali-Slaimia/forgepipe",
+    tech: ["AWS CDK", "Lambda", "DynamoDB", "SQS", "Step Functions", "EventBridge", "Cognito", "Next.js"],
+    liveUrl: null,
+    repoUrl: "https://github.com/Ali-Slaimia/forgepipe",
+    featured: true,
+  },
+  {
     title: "InterviewArena — AI Mock Interviews",
     description:
       "Practice interviews for RoleRadar (or any) job descriptions: AI generates 5 questions, scores your answers, and drafts stronger responses. Local fallback works without an API key.",
